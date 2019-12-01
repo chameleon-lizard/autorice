@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/Pictures/Archive_wallpapers/darkplant.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#020201",
+        "foreground": "#cbd0bc",
+        "cursor": "#cbd0bc"
+    },
+    "colors": {
+        "color0": "#020201",
+        "color1": "#54623E",
+        "color2": "#5A6345",
+        "color3": "#6A7451",
+        "color4": "#817E5C",
+        "color5": "#79865F",
+        "color6": "#8E9871",
+        "color7": "#cbd0bc",
+        "color8": "#8e9183",
+        "color9": "#54623E",
+        "color10": "#5A6345",
+        "color11": "#6A7451",
+        "color12": "#817E5C",
+        "color13": "#79865F",
+        "color14": "#8E9871",
+        "color15": "#cbd0bc"
+    }
+}

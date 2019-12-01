@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/Pictures/Archive_wallpapers/greensea.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#081815",
+        "foreground": "#c2cac7",
+        "cursor": "#c2cac7"
+    },
+    "colors": {
+        "color0": "#081815",
+        "color1": "#596F63",
+        "color2": "#587366",
+        "color3": "#5E806F",
+        "color4": "#6E8579",
+        "color5": "#767E82",
+        "color6": "#7A8F85",
+        "color7": "#c2cac7",
+        "color8": "#878d8b",
+        "color9": "#596F63",
+        "color10": "#587366",
+        "color11": "#5E806F",
+        "color12": "#6E8579",
+        "color13": "#767E82",
+        "color14": "#7A8F85",
+        "color15": "#c2cac7"
+    }
+}

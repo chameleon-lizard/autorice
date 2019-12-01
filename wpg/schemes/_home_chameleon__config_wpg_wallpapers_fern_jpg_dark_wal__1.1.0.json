@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/fern.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121719",
+        "foreground": "#aec2c3",
+        "cursor": "#aec2c3"
+    },
+    "colors": {
+        "color0": "#121719",
+        "color1": "#456658",
+        "color2": "#537365",
+        "color3": "#617C6F",
+        "color4": "#648378",
+        "color5": "#5B7F80",
+        "color6": "#6B908E",
+        "color7": "#aec2c3",
+        "color8": "#798788",
+        "color9": "#456658",
+        "color10": "#537365",
+        "color11": "#617C6F",
+        "color12": "#648378",
+        "color13": "#5B7F80",
+        "color14": "#6B908E",
+        "color15": "#aec2c3"
+    }
+}

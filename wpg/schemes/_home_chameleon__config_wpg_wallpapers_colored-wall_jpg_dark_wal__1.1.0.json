@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/colored-wall.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#27221f",
+        "foreground": "#cedadd",
+        "cursor": "#cedadd"
+    },
+    "colors": {
+        "color0": "#27221f",
+        "color1": "#9B9394",
+        "color2": "#94AEB0",
+        "color3": "#B0B0B0",
+        "color4": "#C7B4AA",
+        "color5": "#B7C4B5",
+        "color6": "#A8BBC3",
+        "color7": "#cedadd",
+        "color8": "#90989a",
+        "color9": "#9B9394",
+        "color10": "#94AEB0",
+        "color11": "#B0B0B0",
+        "color12": "#C7B4AA",
+        "color13": "#B7C4B5",
+        "color14": "#A8BBC3",
+        "color15": "#cedadd"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/cloud.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0E1315",
+        "foreground": "#cedbdb",
+        "cursor": "#cedbdb"
+    },
+    "colors": {
+        "color0": "#0E1315",
+        "color1": "#4C6768",
+        "color2": "#68817E",
+        "color3": "#377985",
+        "color4": "#3C828E",
+        "color5": "#60939A",
+        "color6": "#93B0B1",
+        "color7": "#cedbdb",
+        "color8": "#909999",
+        "color9": "#4C6768",
+        "color10": "#68817E",
+        "color11": "#377985",
+        "color12": "#3C828E",
+        "color13": "#60939A",
+        "color14": "#93B0B1",
+        "color15": "#cedbdb"
+    }
+}

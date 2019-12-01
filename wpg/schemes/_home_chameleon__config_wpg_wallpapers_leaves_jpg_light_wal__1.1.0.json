@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/leaves.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fbfcf7",
+        "foreground": "#030E01",
+        "cursor": "#030E01"
+    },
+    "colors": {
+        "color0": "#fbfcf7",
+        "color1": "#6A951C",
+        "color2": "#6A9256",
+        "color3": "#8AB02E",
+        "color4": "#9DC03F",
+        "color5": "#B1D44E",
+        "color6": "#D2EA6D",
+        "color7": "#030E01",
+        "color8": "#8c8e7b",
+        "color9": "#6A951C",
+        "color10": "#6A9256",
+        "color11": "#8AB02E",
+        "color12": "#9DC03F",
+        "color13": "#B1D44E",
+        "color14": "#D2EA6D",
+        "color15": "#030E01"
+    }
+}
