@@ -12,7 +12,7 @@ echo ""
 # Updating the system
 sudo pacman -Syyu --noconfirm
 # Installing all packages
-sudo pacman -S --noconfirm vim telegram-desktop thefuck i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance
+sudo pacman -S --noconfirm base-devel vim telegram-desktop thefuck i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance
 pip install gdown pywal wpgtk --user
 
 # Building i3lock from AUR
