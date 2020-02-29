@@ -9,9 +9,9 @@ echo "##################################"
 echo ""
 
 # Updating the system
-sudo pacman -Syyu
+sudo pacman -Syyu --noconfirm
 # Installing all packages
-sudo pacman -S vim thefuck i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance
+sudo pacman -S --noconfirm vim thefuck i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance
 pamac install i3lock-color
 pip install gdown pywal wpgtk --user
 
