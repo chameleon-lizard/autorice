@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/home/chameleon/.config/i3'
-let g:netrw_dirhist_3='/home/chameleon/Downloads'
-let g:netrw_dirhist_2='/home/chameleon/.vim'
-let g:netrw_dirhist_1='/etc/X11/xorg.conf.d'
