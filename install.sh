@@ -16,7 +16,7 @@ pamac install i3lock-color
 pip install gdown pywal wpgtk --user
 
 # Downloading configs and putting them into right places
-gdown https://drive.google.com/uc\?id\=1zE61lPaaP0CrhPs9QmmLLsa0dyuc-Ubb
+gdown https://drive.google.com/uc\?id\=16fPk625RYcJdgRjWF2cP9RrbutPdeTPO
 tar -xf configs.tar.xz
 cp -r configs/.config ~/
 cp -r configs/.cache ~/
