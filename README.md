@@ -8,6 +8,16 @@ Bear in mind that this script will work on Manjaro (probably on Arch too, but I 
 
 Also, I'm a dumbass and I don't have a server at the moment, so all of my configs and shit are on my Google Drive right now. You can get them [right here](https://drive.google.com/open?id=19gQIvEunn79ID0_Vu6YJpbh4Nm0TBhVt).
 
+## How to use
+I only tried the script on the clean install, but I don't see why won't it work on a not fresh system. To use it, you just clone the repo, cd into directory, make the script executable and launch it:
+```
+git clone https://github.com/chameleon-lizard/autorice.git
+cd autorice
+chmod +x install.sh
+./install.sh
+```
+
+
 ## Keybindings
 
 They are almost default, but I have added some new.
