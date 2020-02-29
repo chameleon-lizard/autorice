@@ -13,7 +13,11 @@ echo ""
 sudo pacman -Syyu --noconfirm
 # Installing all packages
 sudo pacman -S --noconfirm vim telegram-desktop thefuck i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance
-pamac install i3lock-color
+
+# Building i3lock from AUR
+git clone https://aur.archlinux.org/i3lock-color-git.git
+cd i3lock-color-git && makepkg -si && cd ..
+
 pip install gdown pywal wpgtk --user
 
 # Downloading configs and putting them into right places

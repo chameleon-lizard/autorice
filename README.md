@@ -4,7 +4,7 @@ Hiya! This script automatically rices your system. It uses pictures from your ~/
 folder and generates GTK and terminal colorschemes based on their colors. If you want to use your own 
 wallpapers - just put them into the folder.
 
-Bear in mind that this script will work on Manjaro (probably on Arch too, but it uses pamac to build i3lock-color from AUR), so you can just use it as a guide if you are on a different distribution. Or you can start distrohopping :D
+Bear in mind that this script will work on Manjaro (probably on Arch too, but I don't use Arch btw), so you can just use it as a guide if you are on a different distribution. Or you can start distrohopping :D
 
 ## Keybindings
 
@@ -30,7 +30,7 @@ They are almost default, but I have added some new.
 - i3wm, obviously
 - vim with YCM and couple of other plugins
 - compton as a composite manager
-- i3lock-color (the only thing that is being installed using manjaro's pamac)
+- i3lock-color
 - thefuck as a helper if you have a habit of writing pyhton instead of python
 - gdown to download the configs file from my Google Drive. Yes, I know, I'm a retard, but I am waiting for my payday to rent a server and store the configs there. So this will change in the future.
 - zsh as a shell
