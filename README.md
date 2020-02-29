@@ -4,6 +4,8 @@ Hiya! This script automatically rices your system. It uses pictures from your ~/
 folder and generates GTK and terminal colorschemes based on their colors. If you want to use your own 
 wallpapers - just put them into the folder.
 
+Bear in mind that this script will work on Manjaro (probably on Arch too, but it uses pamac to build i3lock-color from AUR), so you can just use it as a guide if you are on a different distribution. Or you can start distrohopping :D
+
 ## Keybindings
 
 They are almost default, but I have added some new.
@@ -30,8 +32,10 @@ They are almost default, but I have added some new.
 - compton as a composite manager
 - i3lock-color (the only thing that is being installed using manjaro's pamac)
 - thefuck as a helper if you have a habit of writing pyhton instead of python
+- gdown to download the configs file from my Google Drive. Yes, I know, I'm a retard, but I am waiting for my payday to rent my hosting and store the configs there. So this will change in the future.
 
 ## Possible thanks to
 - [Deviantfero's WPGTK, his theme and icons](https://github.com/deviantfero/wpgtk)
 - [Dylanaraps's Pywal](https://github.com/dylanaraps/pywal)
 - [GideonWolfe's zathura-pywal](https://github.com/GideonWolfe/Zathura-Pywal)
+- Pink Floyd, my laziness, my boredom and coffee
