@@ -11,7 +11,7 @@ echo ""
 # Updating the system
 sudo pacman -Syyu
 # Installing all packages
-sudo pacman -S vim thefuck i3 polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight
+sudo pacman -S vim thefuck i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance
 pamac install i3lock-color
 pip install gdown pywal wpgtk --user
 
@@ -29,19 +29,21 @@ cp -r configs/.vimrc ~/
 cp -r configs/.xinitrc ~/
 cp -r configs/.Xresources ~/
 cp -r configs/.zshrc ~/
+cp -r configs/FlatColor ~/.local/share/themes/
 
 # Installing WPGTK
 wpg-install.sh
+wpg-install.sh -i
 
 # Initializing wallpapers
 mkdir -p ~/Pictures
 mkdir -p ~/Pictures/Wallpapers
 wget https://unsplash.com/photos/vpM6b8lhX_U/download?force=true && mv 'download?force=true' ~/Pictures/Wallpepers/wallpaper.jpg
-mv ~/autorice/color.py ~/.local/lib/python3.8/site-packages/wpgtk/data/color.py
+mv ~/color.py ~/.local/lib/python3.8/site-packages/wpgtk/data/color.py
 
 # Creating config for YCM
-mkdir ~/University
-mv ~/autorice/.ycm_extra_conf.py ~/University/
+mkdir -p ~/University
+mv ~/.ycm_extra_conf.py ~/University/
 
 echo ""
 echo "##################################"
