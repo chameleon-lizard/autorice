@@ -3,7 +3,8 @@
 echo ""
 echo "##################################"
 echo ""
-echo "Pre-installation things :)"
+echo "This script will ask for your password couple of times. Do not"
+echo "worry, it is just for installing packages ;)"
 echo ""
 echo "##################################"
 echo ""
@@ -17,6 +18,18 @@ pip install gdown pywal wpgtk --user
 
 # Downloading configs and putting them into right places
 gdown https://drive.google.com/uc\?id\=16fPk625RYcJdgRjWF2cP9RrbutPdeTPO
+
+echo ""
+echo "##################################"
+echo ""
+echo "The script has successfully downloaded the archives and is"
+echo "now unpacking everything. I decided not to specify -v to tar,"
+echo "so it will look like the script suddenly froze, but it is actually"
+echo "working inside ;)"
+echo ""
+echo "##################################"
+echo ""
+
 tar -xf configs.tar.xz
 cp -r configs/.config ~/
 cp -r configs/.cache ~/
@@ -29,6 +42,7 @@ cp -r configs/.vimrc ~/
 cp -r configs/.xinitrc ~/
 cp -r configs/.Xresources ~/
 cp -r configs/.zshrc ~/
+cp -r configs/.vim ~/
 mkdir -p ~/.local/share/themes/FlatColor
 cp -r configs/FlatColor ~/.local/share/themes/
 
