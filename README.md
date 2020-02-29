@@ -6,6 +6,8 @@ wallpapers - just put them into the folder.
 
 Bear in mind that this script will work on Manjaro (probably on Arch too, but I don't use Arch btw), so you can just use it as a guide if you are on a different distribution. Or you can start distrohopping :D
 
+Also, I'm a dumbass and I don't have a server at the moment, so all of my configs and shit are on my Google Drive right now. You can get them [right here](https://drive.google.com/open?id=19gQIvEunn79ID0_Vu6YJpbh4Nm0TBhVt).
+
 ## Keybindings
 
 They are almost default, but I have added some new.

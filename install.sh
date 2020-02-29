@@ -25,7 +25,7 @@ cd ~/.telegram-palette-gen
 ./telegram-palette-gen
 
 # Downloading configs and putting them into right places
-gdown https://drive.google.com/uc\?id\=16fPk625RYcJdgRjWF2cP9RrbutPdeTPO
+gdown https://drive.google.com/uc\?id\=19gQIvEunn79ID0_Vu6YJpbh4Nm0TBhVt
 
 echo ""
 echo "##################################"
