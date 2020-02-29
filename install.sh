@@ -33,12 +33,12 @@ cp -r configs/FlatColor ~/.local/share/themes/
 
 # Installing WPGTK
 wpg-install.sh
+mkdir -p ~/.local/icons
 wpg-install.sh -i
 
 # Initializing wallpapers
 mkdir -p ~/Pictures
-mkdir -p ~/Pictures/Wallpapers
-wget https://unsplash.com/photos/vpM6b8lhX_U/download?force=true && mv 'download?force=true' ~/Pictures/Wallpepers/wallpaper.jpg
+cp -r configs/Wallpapers ~/Pictures/Wallpapers
 mv ~/color.py ~/.local/lib/python3.8/site-packages/wpgtk/data/color.py
 
 # Creating config for YCM
