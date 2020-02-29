@@ -10,8 +10,10 @@ echo ""
 
 sudo pacman -Syyu
 sudo pacman -S vim
+pip install gdown --user
 git clone https://github.com/chameleon-lizard/autorice.git
 cd autorice
+gdown https://drive.google.com/uc\?id\=1FLgw5H2G6u973GHaNHwq6hjD5Vw6HE_Q  
 tar -xvf backup.tar.xz
 cp -r gebaar i3 wpg xfce4 polybar rofi aurman gtk-2.0 gtk-3.0 gtk-4.0 htop neofetch ranger wal ~/.config
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
