@@ -43,6 +43,8 @@ cp -r configs/.xinitrc ~/
 cp -r configs/.Xresources ~/
 cp -r configs/.zshrc ~/
 cp -r configs/.vim ~/
+cp -r configs/genzathurarc ~/.local/bin/
+cp -r configs/zathura ~/.local/bin/
 mkdir -p ~/.local/share/themes/FlatColor
 cp -r configs/FlatColor ~/.local/share/themes/
 

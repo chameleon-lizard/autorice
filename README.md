@@ -32,7 +32,16 @@ They are almost default, but I have added some new.
 - compton as a composite manager
 - i3lock-color (the only thing that is being installed using manjaro's pamac)
 - thefuck as a helper if you have a habit of writing pyhton instead of python
-- gdown to download the configs file from my Google Drive. Yes, I know, I'm a retard, but I am waiting for my payday to rent my hosting and store the configs there. So this will change in the future.
+- gdown to download the configs file from my Google Drive. Yes, I know, I'm a retard, but I am waiting for my payday to rent a server and store the configs there. So this will change in the future.
+- zsh as a shell
+- OhMyZsh as zsh
+- Modified theme as zsh theme
+
+## TODO
+- Port this to Arch
+- Port this to Debian-based distros
+- Port this to Fedora (I will probably never do it, so help needed!)
+- Renting a server to invoke this script using curl
 
 ## Possible thanks to
 - [Deviantfero's WPGTK, his theme and icons](https://github.com/deviantfero/wpgtk)
