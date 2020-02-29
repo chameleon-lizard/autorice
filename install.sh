@@ -12,7 +12,7 @@ echo ""
 # Updating the system
 sudo pacman -Syyu --noconfirm
 # Installing all packages
-sudo pacman -S --noconfirm base-devel vim telegram-desktop thefuck i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance
+sudo pacman -S --noconfirm base-devel vim telegram-desktop thefuck i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance kdeconnect 
 pip install gdown pywal wpgtk --user
 
 # Building i3lock from AUR
@@ -23,6 +23,7 @@ cd i3lock-color-git && makepkg -si && cd ..
 git clone --depth 1 https://github.com/matteoguarda/telegram-palette-gen ~/.telegram-palette-gen
 cd ~/.telegram-palette-gen
 ./telegram-palette-gen
+~/.telegram-palette-gen/telegram-palette-gen --wal
 
 # Downloading configs and putting them into right places
 gdown https://drive.google.com/uc\?id\=19gQIvEunn79ID0_Vu6YJpbh4Nm0TBhVt
@@ -73,7 +74,8 @@ cp ~/autorice/configs/.ycm_extra_conf.py ~/University/
 echo ""
 echo "##################################"
 echo ""
-echo "Now logout and log into i3wm"
+echo "Now logout and log into i3wm. Also, to enable telegram's pywal theme, you have to manually "
+echo "select it in ~/.cache/telegram-palette-gen, same for backgrounds."
 echo ""
 echo "##################################"
 echo ""
