@@ -18,6 +18,8 @@ pip install gdown pywal wpgtk --user
 # Downloading configs and putting them into right places
 gdown https://drive.google.com/uc\?id\=1zE61lPaaP0CrhPs9QmmLLsa0dyuc-Ubb
 tar -xf configs.tar.xz
+mv config/* .
+rm -rf config
 mv .config ..
 mv .cache ..
 mv .cache ..
