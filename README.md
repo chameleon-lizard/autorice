@@ -1,6 +1,6 @@
 # Chameleon-lizard's pywal and wpgtk based autorice
 
-![I'm sort of an artist myself](https://imgur.com/K6uE9VH)
+![I'm sort of an artist myself](https://i.imgur.com/K6uE9VH.png)
 
 Hiya! This script automatically rices your system. It uses pictures from your ~/Pictures/Wallpapers
 folder and generates GTK and terminal colorschemes based on their colors. If you want to use your own 
