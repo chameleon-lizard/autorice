@@ -39,11 +39,11 @@ wpg-install.sh -i
 # Initializing wallpapers
 mkdir -p ~/Pictures
 cp -r configs/Wallpapers ~/Pictures/Wallpapers
-mv ~/color.py ~/.local/lib/python3.8/site-packages/wpgtk/data/color.py
+cp ~/autorice/configs/color.py ~/.local/lib/python3.8/site-packages/wpgtk/data/color.py
 
 # Creating config for YCM
 mkdir -p ~/University
-mv ~/.ycm_extra_conf.py ~/University/
+cp ~/autorice/configs/.ycm_extra_conf.py ~/University/
 
 echo ""
 echo "##################################"
