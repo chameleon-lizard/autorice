@@ -18,7 +18,17 @@ pip install gdown pywal wpgtk --user
 # Downloading configs and putting them into right places
 gdown https://drive.google.com/uc\?id\=1zE61lPaaP0CrhPs9QmmLLsa0dyuc-Ubb
 tar -xf configs.tar.xz
-cp -r configs/* ~/
+cp -r configs/.config ~/
+cp -r configs/.cache ~/
+cp -r configs/.cache ~/
+cp -r configs/.oh-my-zsh ~/
+cp -r configs/Scripts ~/
+cp -r configs/.fehbg ~/
+cp -r configs/.gtkrc-2.0 ~/
+cp -r configs/.vimrc ~/
+cp -r configs/.xinitrc ~/
+cp -r configs/.Xresources ~/
+cp -r configs/.zshrc ~/
 
 # Installing WPGTK
 wpg-install.sh
