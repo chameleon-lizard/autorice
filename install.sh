@@ -33,9 +33,6 @@ mv ~/autorice/color.py ~/.local/lib/python3.8/site-packages/wpgtk/data/color.py
 mkdir ~/University
 mv ~/autorice/.ycm_extra_conf.py ~/University/
 
-# Installing Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 echo ""
 echo "##################################"
 echo ""
