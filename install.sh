@@ -30,7 +30,7 @@ cp -r configs/.xinitrc ~/
 cp -r configs/.Xresources ~/
 cp -r configs/.zshrc ~/
 mkdir -p ~/.local/share/themes/FlatColor
-cp -r configs/FlatColor ~/.local/share/themes/FlatColor
+cp -r configs/FlatColor ~/.local/share/themes/
 
 # Installing WPGTK
 wpg-install.sh
