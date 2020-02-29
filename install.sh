@@ -16,7 +16,7 @@ pip install gdown pywal wpgtk --user
 
 # Downloading configs and putting them into right places
 gdown https://drive.google.com/uc\?id\=1FLgw5H2G6u973GHaNHwq6hjD5Vw6HE_Q  
-tar -xvf backup.tar.xz
+tar -xf backup.tar.xz
 cp -r .vim .vimrc .zshrc .oh-my-zsh Scripts ..
 cp -r gebaar i3 wpg xfce4 polybar rofi aurman gtk-2.0 gtk-3.0 gtk-4.0 htop neofetch ranger wal ~/.config
 
