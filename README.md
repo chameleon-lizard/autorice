@@ -47,4 +47,5 @@ They are almost default, but I have added some new.
 - [Deviantfero's WPGTK, his theme and icons](https://github.com/deviantfero/wpgtk)
 - [Dylanaraps's Pywal](https://github.com/dylanaraps/pywal)
 - [GideonWolfe's zathura-pywal](https://github.com/GideonWolfe/Zathura-Pywal)
+- [Matgua's telegram-palette-gen](https://github.com/matgua/telegram-palette-gen)
 - Pink Floyd, my laziness, my boredom and coffee

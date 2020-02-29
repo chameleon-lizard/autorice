@@ -13,12 +13,16 @@ echo ""
 sudo pacman -Syyu --noconfirm
 # Installing all packages
 sudo pacman -S --noconfirm vim telegram-desktop thefuck i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance
+pip install gdown pywal wpgtk --user
 
 # Building i3lock from AUR
 git clone https://aur.archlinux.org/i3lock-color-git.git
 cd i3lock-color-git && makepkg -si && cd ..
 
-pip install gdown pywal wpgtk --user
+# Installing telegram-palette-gen
+git clone --depth 1 https://github.com/matteoguarda/telegram-palette-gen ~/.telegram-palette-gen
+cd ~/.telegram-palette-gen
+./telegram-palette-gen
 
 # Downloading configs and putting them into right places
 gdown https://drive.google.com/uc\?id\=16fPk625RYcJdgRjWF2cP9RrbutPdeTPO
