@@ -29,6 +29,7 @@ They are almost default, but I have added some new.
 - Prtscr is screenshot of entire screen that is put into ~/Pictures/Screenshots and into your clipboard
 - Shift+Prtscr is the same of above, but for a rectangular area
 - Super+L is locking the screen using i3lock
+- Alt+Space to change keyboard layout. Since I'm from Russia, it is configured to change between Russian and English layouts, but you can change it in the ~/.config/i3/config file. Just search for line 246 and change or delete it.
 
 ## Software used
 - Zathura as PDF viewer
