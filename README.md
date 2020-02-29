@@ -1,5 +1,7 @@
 # Chameleon-lizard's pywal and wpgtk based autorice
 
+![I'm sort of an artist myself](https://imgur.com/K6uE9VH)
+
 Hiya! This script automatically rices your system. It uses pictures from your ~/Pictures/Wallpapers
 folder and generates GTK and terminal colorschemes based on their colors. If you want to use your own 
 wallpapers - just put them into the folder.
@@ -16,7 +18,6 @@ cd autorice
 chmod +x install.sh
 ./install.sh
 ```
-
 
 ## Keybindings
 
