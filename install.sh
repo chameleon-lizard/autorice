@@ -11,7 +11,7 @@ echo ""
 
 # Cloning all the files into home directory
 cd ~/
-git clone https://github.com/chameleon-lizard/autoriice.git
+git clone https://github.com/chameleon-lizard/autorice.git
 cd autorice
 
 # Updating the system
