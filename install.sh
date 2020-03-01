@@ -19,12 +19,6 @@ pip install pywal wpgtk --user
 git clone https://aur.archlinux.org/i3lock-color-git.git
 cd i3lock-color-git && makepkg -si && cd ..
 
-# Installing telegram-palette-gen
-git clone --depth 1 https://github.com/matteoguarda/telegram-palette-gen ~/.telegram-palette-gen
-cd ~/.telegram-palette-gen
-./telegram-palette-gen
-~/.telegram-palette-gen/telegram-palette-gen --wal
-
 # Copying configs
 cp -r configs/.config ~/
 cp -r configs/.cache ~/
@@ -37,6 +31,7 @@ cp -r configs/.Xresources ~/
 cp -r configs/.zshrc ~/
 mkdir -p ~/.local/share/themes/FlatColor
 cp -r configs/FlatColor ~/.local/share/themes/
+cp -r configs/vimfile ~/
 
 # Installing WPGTK
 wpg-install.sh
@@ -51,12 +46,18 @@ cp ~/autorice/configs/color.py ~/.local/lib/python3.8/site-packages/wpgtk/data/c
 # Creating config for YCM
 cp ~/autorice/configs/.ycm_extra_conf.py ~/
 
+# Installing telegram-palette-gen
+git clone --depth 1 https://github.com/matteoguarda/telegram-palette-gen ~/.telegram-palette-gen
+cd ~/.telegram-palette-gen
+./telegram-palette-gen
+~/.telegram-palette-gen/telegram-palette-gen --wal
+
 # Configuring vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim vimfile
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 cd ~/autorice
+vim vimfile
 
 # Installing Zathura-pywal
 mkdir -p ~/.config/Zathura
