@@ -28,7 +28,6 @@ cp -r configs/.gtkrc-2.0 ~/
 cp -r configs/.vimrc ~/
 cp -r configs/.xinitrc ~/
 cp -r configs/.Xresources ~/
-cp -r configs/.zshrc ~/
 mkdir -p ~/.local/share/themes/FlatColor
 cp -r configs/FlatColor ~/.local/share/themes/
 cp -r configs/vimfile ~/
@@ -64,6 +63,8 @@ git clone https://github.com/chameleon-lizard/Scripts.git
 # Installing Oh-My-Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp ~/autorice/configs/nox-modded.zsh-theme ~/.oh-my-zsh/themes
+cp ~/autorice/configs/.zshrc ~/
+
 
 # Generating initial colorscheme
 sh ~/Scripts/random_wallpapers.sh
