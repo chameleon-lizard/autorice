@@ -12,7 +12,7 @@ echo ""
 # Updating the system
 sudo pacman -Syyu --noconfirm
 # Installing all packages
-sudo pacman -S --noconfirm base-devel vim telegram-desktop i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance kdeconnect blueman
+sudo pacman -S --noconfirm base-devel vim thefuck telegram-desktop i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance kdeconnect blueman
 pip install pywal wpgtk --user
 
 # Building i3lock from AUR

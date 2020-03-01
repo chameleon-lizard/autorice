@@ -37,18 +37,17 @@ They are almost default, but I have added some new.
 - ranger as a cli file manager
 - Nautilus as a gui file manager
 - gnome-terminal as a terminal for Nautilus's open directory in terminal. If only I could use xfce4-terminal for everything!
-- feh as picture viewer
+- feh as picture viewer and wallpaper setter
 - neofetch for fancy terminal screenshots
 - my custom set of scripts for many things
 - polybar
 - i3wm, obviously
-- vim with YCM and couple of other plugins
 - compton as a composite manager
 - i3lock-color
 - thefuck as a helper if you have a habit of writing pyhton instead of python
 - zsh as a shell
 - OhMyZsh as zsh
-- Modified theme as zsh theme
+- Modified nox theme as zsh theme
 
 ## TODO
 - Creating a backup of all the user files and revert to previous rice feature
