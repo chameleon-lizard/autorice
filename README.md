@@ -9,12 +9,9 @@ wallpapers - just put them into the folder.
 Bear in mind that this script will work on Manjaro (probably on Arch too, but I don't use Arch btw), so you can just use it as a guide if you are on a different distribution. Or you can start distrohopping :D
 
 ## How to use
-I only tried the script on the clean install, but I don't see why won't it work on a not fresh system. To use it, you just clone the repo, cd into directory, make the script executable and launch it:
+I only tried the script on the clean install, but I don't see why won't it work on a not fresh system. To use it, you just clone the repo, cd into directory, make the script executable and launch it, or just invoke it using curl:
 ```
-git clone https://github.com/chameleon-lizard/autorice.git
-cd autorice
-chmod +x install.sh
-./install.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/chameleon-lizard/autorice/master/install.sh)"
 ```
 
 ## Keybindings
@@ -51,7 +48,6 @@ They are almost default, but I have added some new.
 
 ## TODO
 - Creating a backup of all the user files and revert to previous rice feature
-- Renting a server to invoke this script using curl
 - Port this to Arch
 - Port this to Debian-based distros
 - Port this to Fedora (I will probably never do it, so help needed!)
