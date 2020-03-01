@@ -52,10 +52,11 @@ They are almost default, but I have added some new.
 - Modified theme as zsh theme
 
 ## TODO
+- Creating a backup of all the user files and revert to previous rice feature
+- Renting a server to invoke this script using curl
 - Port this to Arch
 - Port this to Debian-based distros
 - Port this to Fedora (I will probably never do it, so help needed!)
-- Renting a server to invoke this script using curl
 
 ## Possible thanks to
 - [Deviantfero's WPGTK, his theme and icons](https://github.com/deviantfero/wpgtk)
