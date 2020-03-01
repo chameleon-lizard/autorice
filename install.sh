@@ -52,24 +52,16 @@ cd ~/.telegram-palette-gen
 ./telegram-palette-gen
 ~/.telegram-palette-gen/telegram-palette-gen --wal
 
-# Configuring vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-cd ~/.vim/bundle/YouCompleteMe
-./install.py --clang-completer
-cd ~/autorice
-vim vimfile
-
 # Installing Zathura-pywal
 mkdir -p ~/.config/Zathura
 git clone https://github.com/GideonWolfe/Zathura-Pywal.git ~/.config/Zathura
-cd ~/.config/Zathura/Zathura-Pywal && ./install.sh && cd ~/autorice
+cd ~/.config/Zathura/
+./install.sh
+cd ~/autorice
 
 # Cloning scripts
-git clone https://github.com/chameleon-lizard/Scripts.git ~/
-
-# Installing Oh-My-Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-cp ~/autorice/configs/nox-modded.zsh-theme ~/.oh-my-zsh/themes
+cd ~/
+git clone https://github.com/chameleon-lizard/Scripts.git
 
 echo ""
 echo "##################################"
