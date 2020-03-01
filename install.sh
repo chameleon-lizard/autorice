@@ -65,6 +65,9 @@ git clone https://github.com/chameleon-lizard/Scripts.git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp ~/autorice/configs/nox-modded.zsh-theme ~/.oh-my-zsh/themes
 
+# Generating initial colorscheme
+sh ~/Scripts/random_wallpapers.sh
+
 echo ""
 echo "##################################"
 echo ""
