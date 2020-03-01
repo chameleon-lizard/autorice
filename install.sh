@@ -55,13 +55,15 @@ cd ~/.telegram-palette-gen
 # Installing Zathura-pywal
 mkdir -p ~/.config/Zathura
 git clone https://github.com/GideonWolfe/Zathura-Pywal.git ~/.config/Zathura
-cd ~/.config/Zathura/
-./install.sh
-cd ~/autorice
+cd ~/.config/Zathura/ && ./install.sh && cd ~/autorice
 
 # Cloning scripts
 cd ~/
 git clone https://github.com/chameleon-lizard/Scripts.git
+
+# Installing Oh-My-Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cp ~/autorice/configs/nox-modded.zsh-theme ~/.oh-my-zsh/themes
 
 echo ""
 echo "##################################"
