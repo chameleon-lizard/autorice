@@ -30,6 +30,7 @@ They are almost default, but I have added some new.
 - Shift+Prtscr is the same of above, but for a rectangular area
 - Super+L is locking the screen using i3lock
 - Alt+Space to change keyboard layout. Since I'm from Russia, it is configured to change between Russian and English layouts, but you can change it in the ~/.config/i3/config file. Just search for line 246 and change or delete it.
+- Super+Shift+W is changing output to HDMI2. Since I found that i3wm in 4k is very small, I defaulted external resolution to 1080p. If you want, you can change it in ~/Scripts/autostart-screen.sh
 
 ## Software used
 - Zathura as PDF viewer
