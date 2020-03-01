@@ -9,8 +9,14 @@ echo ""
 echo "##################################"
 echo ""
 
+# Cloning all the files into home directory
+cd ~/
+git clone https://github.com/chameleon-lizard/autoriice.git
+cd autorice
+
 # Updating the system
 sudo pacman -Syyu --noconfirm
+
 # Installing all packages
 sudo pacman -S --noconfirm base-devel vim thefuck telegram-desktop i3 xfce4-terminal polybar ranger feh jq scrot xclip rofi zathura zathura-cb zathura-ps zathura-djvu zathura-pdf-mupdf neofetch nautilus gnome-terminal xorg-xbacklight compton lxappearance kdeconnect blueman
 pip install pywal wpgtk --user
@@ -64,7 +70,6 @@ git clone https://github.com/chameleon-lizard/Scripts.git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp ~/autorice/configs/nox-modded.zsh-theme ~/.oh-my-zsh/themes
 cp ~/autorice/configs/.zshrc ~/
-
 
 # Generating initial colorscheme
 sh ~/Scripts/random_wallpapers.sh
