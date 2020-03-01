@@ -19,13 +19,6 @@ pip install pywal wpgtk --user
 git clone https://aur.archlinux.org/i3lock-color-git.git
 cd i3lock-color-git && makepkg -si && cd ..
 
-# Building OSX-Elcap cursor theme from AUR
-git clone https://aur.archlinux.org/xcursor-osx-elcap.git
-cd xcursor-osx-elcap 
-echo "Cloned!"
-makepkg -si
-cd ..
-
 # Installing telegram-palette-gen
 git clone --depth 1 https://github.com/matteoguarda/telegram-palette-gen ~/.telegram-palette-gen
 cd ~/.telegram-palette-gen
