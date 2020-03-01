@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/Pictures/Archive_wallpapers/sunflowers.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d0a",
+        "foreground": "#cfc8c2",
+        "cursor": "#cfc8c2"
+    },
+    "colors": {
+        "color0": "#0d0d0a",
+        "color1": "#907650",
+        "color2": "#C47E5E",
+        "color3": "#BD9240",
+        "color4": "#AB8D5B",
+        "color5": "#CDA358",
+        "color6": "#6F768E",
+        "color7": "#cfc8c2",
+        "color8": "#908c87",
+        "color9": "#907650",
+        "color10": "#C47E5E",
+        "color11": "#BD9240",
+        "color12": "#AB8D5B",
+        "color13": "#CDA358",
+        "color14": "#6F768E",
+        "color15": "#cfc8c2"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/house.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A1311",
+        "foreground": "#bdc0ad",
+        "cursor": "#bdc0ad"
+    },
+    "colors": {
+        "color0": "#0A1311",
+        "color1": "#2A4E20",
+        "color2": "#344929",
+        "color3": "#475532",
+        "color4": "#54672F",
+        "color5": "#5F6A4C",
+        "color6": "#768652",
+        "color7": "#bdc0ad",
+        "color8": "#848679",
+        "color9": "#2A4E20",
+        "color10": "#344929",
+        "color11": "#475532",
+        "color12": "#54672F",
+        "color13": "#5F6A4C",
+        "color14": "#768652",
+        "color15": "#bdc0ad"
+    }
+}

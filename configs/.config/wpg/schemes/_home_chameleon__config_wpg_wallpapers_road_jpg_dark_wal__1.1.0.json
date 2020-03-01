@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/road.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c09",
+        "foreground": "#ece4dc",
+        "cursor": "#ece4dc"
+    },
+    "colors": {
+        "color0": "#0a0c09",
+        "color1": "#AFB4B0",
+        "color2": "#C6BCAD",
+        "color3": "#BEC1BB",
+        "color4": "#CAC5BB",
+        "color5": "#EBD2BD",
+        "color6": "#D3CEC5",
+        "color7": "#ece4dc",
+        "color8": "#a59f9a",
+        "color9": "#AFB4B0",
+        "color10": "#C6BCAD",
+        "color11": "#BEC1BB",
+        "color12": "#CAC5BB",
+        "color13": "#EBD2BD",
+        "color14": "#D3CEC5",
+        "color15": "#ece4dc"
+    }
+}

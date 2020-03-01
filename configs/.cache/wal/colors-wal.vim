@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/chameleon/.config/wpg/wallpapers/mountain.jpg"
+let background = "#101212"
+let foreground = "#ceccc9"
+let cursor     = "#ceccc9"
+
+" Colors
+let color0  = "#101212"
+let color1  = "#5B6562"
+let color2  = "#6D746F"
+let color3  = "#7C8079"
+let color4  = "#86857B"
+let color5  = "#7A8583"
+let color6  = "#8F938E"
+let color7  = "#ceccc9"
+let color8  = "#908e8c"
+let color9  = "#5B6562"
+let color10 = "#6D746F"
+let color11 = "#7C8079"
+let color12 = "#86857B"
+let color13 = "#7A8583"
+let color14 = "#8F938E"
+let color15 = "#ceccc9"

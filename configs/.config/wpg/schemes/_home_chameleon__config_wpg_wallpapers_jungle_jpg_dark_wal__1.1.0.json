@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/jungle.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#10100c",
+        "foreground": "#c0b5b9",
+        "cursor": "#c0b5b9"
+    },
+    "colors": {
+        "color0": "#10100c",
+        "color1": "#6D6E30",
+        "color2": "#716A49",
+        "color3": "#8B7446",
+        "color4": "#77872B",
+        "color5": "#A29958",
+        "color6": "#A9A745",
+        "color7": "#c0b5b9",
+        "color8": "#867e81",
+        "color9": "#6D6E30",
+        "color10": "#716A49",
+        "color11": "#8B7446",
+        "color12": "#77872B",
+        "color13": "#A29958",
+        "color14": "#A9A745",
+        "color15": "#c0b5b9"
+    }
+}

@@ -8,8 +8,6 @@ wallpapers - just put them into the folder.
 
 Bear in mind that this script will work on Manjaro (probably on Arch too, but I don't use Arch btw), so you can just use it as a guide if you are on a different distribution. Or you can start distrohopping :D
 
-Also, I'm a dumbass and I don't have a server at the moment, so all of my configs and shit are on my Google Drive right now. You can get them [right here](https://drive.google.com/open?id=19gQIvEunn79ID0_Vu6YJpbh4Nm0TBhVt).
-
 ## How to use
 I only tried the script on the clean install, but I don't see why won't it work on a not fresh system. To use it, you just clone the repo, cd into directory, make the script executable and launch it:
 ```
@@ -48,7 +46,6 @@ They are almost default, but I have added some new.
 - compton as a composite manager
 - i3lock-color
 - thefuck as a helper if you have a habit of writing pyhton instead of python
-- gdown to download the configs file from my Google Drive. Yes, I know, I'm a retard, but I am waiting for my payday to rent a server and store the configs there. So this will change in the future.
 - zsh as a shell
 - OhMyZsh as zsh
 - Modified theme as zsh theme

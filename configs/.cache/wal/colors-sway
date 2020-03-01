@@ -1,0 +1,21 @@
+set $wallpaper /home/chameleon/.config/wpg/wallpapers/mountain.jpg
+
+set $background #101212
+set $foreground #ceccc9
+
+set $color0 #101212
+set $color1 #5B6562
+set $color2 #6D746F
+set $color3 #7C8079
+set $color4 #86857B
+set $color5 #7A8583
+set $color6 #8F938E
+set $color7 #ceccc9
+set $color8 #908e8c
+set $color9 #5B6562
+set $color10 #6D746F
+set $color11 #7C8079
+set $color12 #86857B
+set $color13 #7A8583
+set $color14 #8F938E
+set $color15 #ceccc9

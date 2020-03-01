@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/water.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090F11",
+        "foreground": "#b3cbd7",
+        "cursor": "#b3cbd7"
+    },
+    "colors": {
+        "color0": "#090F11",
+        "color1": "#0C6C91",
+        "color2": "#2F7291",
+        "color3": "#477992",
+        "color4": "#3385A4",
+        "color5": "#508FAA",
+        "color6": "#6697AE",
+        "color7": "#b3cbd7",
+        "color8": "#7d8e96",
+        "color9": "#0C6C91",
+        "color10": "#2F7291",
+        "color11": "#477992",
+        "color12": "#3385A4",
+        "color13": "#508FAA",
+        "color14": "#6697AE",
+        "color15": "#b3cbd7"
+    }
+}

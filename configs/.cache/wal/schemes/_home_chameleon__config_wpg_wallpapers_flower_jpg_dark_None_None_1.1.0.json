@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/flower.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F1110",
+        "foreground": "#cac7c3",
+        "cursor": "#cac7c3"
+    },
+    "colors": {
+        "color0": "#0F1110",
+        "color1": "#8E656C",
+        "color2": "#518454",
+        "color3": "#6A8C69",
+        "color4": "#909674",
+        "color5": "#99728A",
+        "color6": "#718188",
+        "color7": "#cac7c3",
+        "color8": "#8d8b88",
+        "color9": "#8E656C",
+        "color10": "#518454",
+        "color11": "#6A8C69",
+        "color12": "#909674",
+        "color13": "#99728A",
+        "color14": "#718188",
+        "color15": "#cac7c3"
+    }
+}

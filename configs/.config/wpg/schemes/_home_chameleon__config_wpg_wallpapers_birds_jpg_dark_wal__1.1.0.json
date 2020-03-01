@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/birds.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#050905",
+        "foreground": "#ffebdb",
+        "cursor": "#ffebdb"
+    },
+    "colors": {
+        "color0": "#050905",
+        "color1": "#E0582D",
+        "color2": "#69847A",
+        "color3": "#D86A51",
+        "color4": "#AC482F",
+        "color5": "#A66457",
+        "color6": "#CE5131",
+        "color7": "#e7bbae",
+        "color8": "#152a15",
+        "color9": "#ff6928",
+        "color10": "#79baa2",
+        "color11": "#ff7d55",
+        "color12": "#ed552e",
+        "color13": "#e87660",
+        "color14": "#ff5f2f",
+        "color15": "#ffebdb"
+    }
+}

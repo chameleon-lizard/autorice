@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chameleon/.config/wpg/wallpapers/mug.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090503",
+        "foreground": "#c9baa7",
+        "cursor": "#c9baa7"
+    },
+    "colors": {
+        "color0": "#090503",
+        "color1": "#736047",
+        "color2": "#94622F",
+        "color3": "#C76D18",
+        "color4": "#8E704E",
+        "color5": "#A27B51",
+        "color6": "#E69B3B",
+        "color7": "#c9baa7",
+        "color8": "#8c8274",
+        "color9": "#736047",
+        "color10": "#94622F",
+        "color11": "#C76D18",
+        "color12": "#8E704E",
+        "color13": "#A27B51",
+        "color14": "#E69B3B",
+        "color15": "#c9baa7"
+    }
+}
