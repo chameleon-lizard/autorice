@@ -28,15 +28,11 @@ cd i3lock-color-git && makepkg -si && cd ..
 # Copying configs
 cp -r configs/.config ~/
 cp -r configs/.cache ~/
-cp -r configs/Scripts ~/
 cp -r configs/.fehbg ~/
 cp -r configs/.gtkrc-2.0 ~/
 cp -r configs/.vimrc ~/
-cp -r configs/.xinitrc ~/
-cp -r configs/.Xresources ~/
 mkdir -p ~/.local/share/themes/FlatColor
 cp -r configs/FlatColor ~/.local/share/themes/
-cp -r configs/vimfile ~/
 
 # Installing WPGTK
 wpg-install.sh

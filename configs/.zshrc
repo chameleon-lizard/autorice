@@ -124,3 +124,4 @@ alias audio-laptop='pacmd set-card-profile 0 output:analog-stereo+input:analog-s
 
 alias battery='sh ~/Scripts/battery.sh'
 alias calc='~/Scripts/calc.py'
+alias copy='xclip -selection clipboard'
