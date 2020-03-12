@@ -26,13 +26,13 @@ git clone https://aur.archlinux.org/i3lock-color-git.git
 cd i3lock-color-git && makepkg -si && cd ..
 
 # Copying configs
-cp -r configs/.config ~/
-cp -r configs/.cache ~/
-cp -r configs/.fehbg ~/
-cp -r configs/.gtkrc-2.0 ~/
-cp -r configs/.vimrc ~/
+cp -r ~/autorice/configs/.config ~/
+cp -r ~/autorice/configs/.cache ~/
+cp -r ~/autorice/configs/.fehbg ~/
+cp -r ~/autorice/configs/.gtkrc-2.0 ~/
+cp -r ~/autorice/configs/.vimrc ~/
 mkdir -p ~/.local/share/themes/FlatColor
-cp -r configs/FlatColor ~/.local/share/themes/
+cp -r ~/autorice/configs/FlatColor ~/.local/share/themes/
 
 # Installing WPGTK
 wpg-install.sh
@@ -68,6 +68,15 @@ cp ~/autorice/configs/nox-modded.zsh-theme ~/.oh-my-zsh/themes
 cp ~/autorice/configs/.zshrc ~/
 
 # Generating initial colorscheme
+touch ~/.Xresources
+
+rm ~/.config/wpg/templates/gtk2.0
+rm ~/.config/wpg/templates/gtk3.0
+rm ~/.config/wpg/templates/gtk3.20
+ln -s ~/.local/share/themes/FlatColor/gtk-2.0/gtk.css ~/.config/wpg/templates/gtk2.0
+ln -s ~/.local/share/themes/FlatColor/gtk-3.0/gtk.css ~/.config/wpg/templates/gtk3.0
+ln -s ~/.local/share/themes/FlatColor/gtk-3.20/gtk.css ~/.config/wpg/templates/gtk3.20
+
 sh ~/Scripts/random_wallpapers.sh
 
 echo ""
