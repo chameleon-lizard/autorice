@@ -162,10 +162,7 @@ set $ws9 "9"
 set $ws10 "10"
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
-
-# change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+v floating toggle
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -239,11 +236,7 @@ bindsym $mod+p move workspace to output right
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Initial commands that execute on i3 start.
-exec_always --no-startup-id gebaard -b
 exec_always --no-startup-id sh ~/Scripts/autostart_screen.sh
 exec_always --no-startup-id sh ~/.config/i3/startup_wallpapers.sh
 exec_always --no-startup-id compton
-exec_always --no-startup-id setxkbmap -layout "us,ru" -option "grp:alt_space_toggle"
-exec_always --no-startup-id kdeconnect-cli
-exec_always --no-startup-id kdeconnect-indicator
-exec_always --no-startup-id blueman-applet
+exec_always --no-startup-id setxkbmap -layout "us,ru" -option "grp:win_space_toggle"
